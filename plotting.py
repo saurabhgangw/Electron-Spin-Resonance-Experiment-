@@ -8,7 +8,7 @@ df = pd.read_csv("data.csv")
 #defining axis
 x =  (df["Time"]).to_numpy() 
 y_1 = (df["Channel A"]).to_numpy() 
-y_2 = (df["Channel A"]).to_numpy()
+y_2 = (df["Channel B"]).to_numpy()
 
 #plotting 
 
