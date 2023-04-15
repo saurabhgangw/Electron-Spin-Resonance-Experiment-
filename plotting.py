@@ -6,9 +6,9 @@ import pandas as pd
 df = pd.read_csv("data.csv") 
 
 #defining axis
-x =  df(["Time"]).tonumpy() 
-y_1 = df(["Channel A"]).tonumpy() 
-y_2 = df(["Channel A"]).tonumpy()
+x =  (df["Time"]).to_numpy() 
+y_1 = (df["Channel A"]).to_numpy() 
+y_2 = (df["Channel A"]).to_numpy()
 
 #plotting 
 
